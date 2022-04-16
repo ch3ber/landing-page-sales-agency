@@ -4,11 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Platzi Travel</title>
-  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="/dist/bundle.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <nav></nav>
+  <div id="tab_bar"></div>
+  <section class="w-full h-screen">
+    <div id="home">
+      <div class="w-full h-3/4">
+        <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+          <input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" name="" id="">
+          <button class="bg-white text-xl text-primary font-semibold w-36 rounded-full p-3 shadow-sm">Explorar</button>
+        </div>
+        <div class="w-full h-full">
+          <img src="./img/sanFrancisco.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div id="recomendadas"></div>
+    <div id="rentas_destacadas"></div>
+  </section>
+  <footer></footer>
 </body>
 </html>
