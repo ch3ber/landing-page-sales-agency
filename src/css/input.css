@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Card {
+  @apply w-48 h-64 shadow-lg shadow-lime-500/40 rounded-lg flex-none overflow-hidden
+}
+.Card--blue {
+  @apply w-48 h-64 shadow-lg shadow-sky-600/40 rounded-lg flex-none overflow-hidden
+}
